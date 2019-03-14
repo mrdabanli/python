@@ -33,14 +33,14 @@ class Hesap():
         else:
             print("Bakiyeniz: {0}₺.".format(self.bakiye))
 
-hesap1 = Hesap("Okan Dabanlı")
+hesap1 = Hesap("Ahmet")
 hesap1.bakiyeGoster(True) #ATM giriş ekranı karşılaması
 hesap1.borc = 250
 hesap1.borcOde(140)
 hesap1.paraYatir(1500)
 hesap1.paraCek(650)
 
-hesap2 = Hesap("Hakan Dabanlı")
+hesap2 = Hesap("Osman")
 hesap2.bakiyeGoster(True) #ATM giriş ekranı karşılaması
 
 hesap1.baskaHesabaParaYatir(hesap2, 400) #Hesaba para yatır.
