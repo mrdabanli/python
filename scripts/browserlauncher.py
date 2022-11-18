@@ -2,7 +2,7 @@ import webbrowser
 import time
 
 googleUrl = "http://www.google.com.tr"
-socialMediUrls = ["http://www.twitter.com", "http://www.facebook.com", "http://www.instagram.com"]
+socialMediUrls = ["http://www.twitter.com", "http://www.facebook.com", "http://www.instagram.com", "http://www.linkedin.com"]
 
 def openNewTab(socialMediUrls):
     for page in socialMediUrls:
